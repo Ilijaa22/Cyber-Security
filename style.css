@@ -1,0 +1,562 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f9f9f9;
+}
+
+.pre-header{
+    background-color: #111618;
+    height: 60px;
+    color: white;
+    padding-top: 15px;
+}
+.sekundarni-meni{
+    list-style: none;
+}
+.pre-header .col-md-6 .sekundarni-meni li a{
+    color: #707374;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.pre-header .col-md-6 .sekundarni-meni li a:hover{
+    color: white;
+    transition: 0.5s;
+}
+.pre-header .col-md-6 .sekundarni-meni li{
+    display: inline-block;
+    margin-left: 15px;
+    text-transform: uppercase;
+}
+
+
+.main-menu{
+    list-style: none;
+    margin-top: 20px;
+}
+.main-nav .col-md-7 .main-menu li{
+    display: inline-block;
+    margin-left: 15px;
+}
+.main-nav .col-md-7 .main-menu li a{
+    text-decoration: none;
+    color: #767676;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.main-nav .col-md-7 .main-menu li a:hover{
+    color: black;
+    transition: 0.5s;
+}
+.main-nav .col-md-5 img{
+    margin-top: 10px;
+}
+.main-nav .col-md-7 .main-menu .free-quote-btn a{
+    color: #fff;
+    background-color: #4f33f1;
+    border: 2px solid #4f33f1;
+    padding: 8px;
+    transition: 0.3s;
+}
+.main-nav .col-md-7 .main-menu .free-quote-btn a:hover{
+    color: #4f33f1;
+    background-color: transparent;
+}
+
+.hero-section {
+    background-image: url('images/hero.jpg');
+    background-size: cover;
+    padding-top: 120px;
+    padding-bottom: 140px;  
+}
+.hero-section h1{
+    color: white;
+    font-size: 60px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.hero-section p{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.hero-section a{
+    color: #fff;
+    background-color: #4f33f1;
+    border: 2px solid #4f33f1;
+    padding: 8px;
+    transition: 0.3s;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.hero-section a:hover{
+    color: #4f33f1;
+    background-color: transparent;
+}
+
+.sekcija{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.sekcija h3{
+    text-align: center;
+    color: #4c007b;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.sekcija h2{
+    text-align: center;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #343434;
+    font-weight: bold;
+}
+.sekcija p{
+    text-align: center;
+    color: #818181;
+}
+.sekcija .col-md-4 .servis-sekcija{
+    background-color: #1b1f20;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+    -moz-box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+    color: #fff;
+    text-align: center;
+    padding-bottom: 40px;
+    transition: 0.2s;
+    margin-top: 50px;
+}
+.sekcija .col-md-4 .servis-sekcija:hover{
+    background-color: #4c007b;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.sekcija .col-md-4 .servis-sekcija a{
+    color: #fff;
+    display: inline-block;
+    border: 2px solid #fff;
+    padding: 5px;
+    text-decoration: none;
+}
+.sekcija .col-md-4 .servis-sekcija p{
+    color: #b7b8b8;
+}
+.sekcija .col-md-4 .servis-sekcija h4{
+    text-transform: uppercase;
+}
+
+.work{
+    text-align: center;
+    background-image: url("images/work.jpg");
+    background-size: cover;
+    color: #fff;
+    padding-top: 100px;
+}
+.work a{
+    display: block;
+    position: relative;
+    bottom: -30px;
+}
+.work h3{
+    text-align: center;
+    color: #108bfc;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.work h2{
+    text-align: center;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+}
+.work p{
+    text-align: center;
+    color: #fff;
+}
+
+.customers{
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+.customers h2{
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+.customers .col-md-3 .testemonials{
+    background-size: cover;
+    background-position: center;
+    height: 360px;
+    color: #fff;
+}
+.customers .col-md-3 .testemonials .kartica{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    padding: 25px;
+    position: relative;
+}
+.customers .col-md-3 .testemonials .kartica .ime{
+    position: absolute;
+    bottom: 20px;
+    text-transform: uppercase;
+}
+.customers .col-md-3 .testemonials .kartica .ime h4{
+    font-weight: bold;
+}
+.customers .col-md-3 .testemonials .kartica .ime::before{
+    content: "";
+    width: 3px;
+    height: 50px;
+    background-color: #fff;
+    position: absolute;
+    left: -10px;
+    top: 5px;
+}
+
+.about{
+    background-image: url('images/about.jpg');
+    background-size: cover;
+}
+.about h3{
+    font-size: 16px;
+    text-transform: uppercase;
+    border-bottom: 2px dotted #b7b8b8;
+    padding-bottom: 8px;
+}
+.about h3::before{
+    content: "";
+    display: inline-block;
+    background-color: teal;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    position: relative;
+    top: -1px;
+}
+.about .col-md-6{
+    padding: 100px;
+    color: #fff;
+}
+
+.school{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.school .skola-tab{
+    background-image: url('images/school.jpg');
+    margin-top: 40px;
+}
+.school .skola-tab .skola-overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    padding: 50px;
+    color: #fff;
+}
+.school .skola-tab .skola-overlay .datum span{
+    background-color: #2a66f7;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 1px;
+    margin-right: 7px;
+    color: #fff;
+}
+#demo{
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 40px;
+    border: 1px solid #fff;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.school .skola-tab .skola-overlay h4{
+    font-size: 60px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-bottom: 7px;
+    
+}
+.school .skola-tab .skola-overlay a{
+    color: #fff;
+    background-color: #2a66f7;
+    border: 2px solid #2a66f7;
+    padding: 8px;
+    transition: 0.3s;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.school .skola-tab .skola-overlay a:hover{
+    color: #2a66f7;
+    background-color: transparent;
+}
+.school h3{
+    text-align: center;
+    color: #4c007b;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.school h2{
+    text-align: center;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #343434;
+    font-weight: bold;
+}
+.school p{
+    text-align: center;
+    color: #818181;
+}
+.school .skola-tab .skola-overlay p{
+    color: white;
+}
+
+.kontaknt{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url('images/about.jpg');
+    color: #fff;
+    background-size: cover;
+}
+.kontaknt .detalji{
+    text-align: left;
+}
+.kontaknt .detalji p{
+    text-align: left;
+}
+.kontaknt h2, .kontaknt p{
+    text-align: center;
+    font-weight: bold;
+}
+.kontaknt .col-md-7{
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid #7c7586;
+    padding: 50px;
+}
+.kontaknt .col-md-7 .col-md-12 textarea, .kontaknt .col-md-7 .col-md-6 input, .kontaknt .col-md-7 .col-md-6 button{
+    width: 100%;
+    border: 0;
+    outline: none;
+    margin-bottom: 15px;
+    height: 40px;
+}
+.kontaknt .col-md-7 .col-md-12 textarea{
+    height: 80px;
+}
+.kontaknt .col-md-7 .col-md-6 button{
+    background-color: #108bfc;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 26px;
+}
+.kontaknt .col-md-7 .col-md-12 label, .kontaknt .col-md-7 .col-md-6 label{
+    text-transform: uppercase;
+    margin-bottom: 4px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.kontaknt .kontaknt-container{
+    margin-top: 50px;
+}
+.kontaknt .detalji h4{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 1px solid #7c7586;
+    padding-bottom: 10px;
+}
+.kontaknt .detalji h4::before{
+    content: "";
+    display: inline-block;
+    background-color: #108bfc;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    position: relative;
+    top: -2px;
+}
+.kontaknt .detalji h3{
+    margin-bottom: 35px;
+}
+.kontaknt .detalji p{
+    font-weight: normal;
+}
+
+.placanje{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.placanje h3{
+    text-align: center;
+    color: #4c007b;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.placanje h2{
+    text-align: center;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #343434;
+    font-weight: bold;
+}
+.placanje p{
+    text-align: center;
+    color: #818181;
+}
+.placanje .plan-placanja{
+    background-color: #1c2021;
+    color: #fff;
+    padding: 25px;
+}
+.placanje .plan-placanja a{
+    display: inline-block;
+    color: #fff;
+    background-color: #4f33f1;
+    border: 2px solid #4f33f1;
+    padding: 8px;
+    transition: 0.3s;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.placanje .plan-placanja a:hover{
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+}
+.placanje .plan-placanja:hover{
+    background-color: #4c007b;
+}
+.placanje .plan-placanja ul{
+    list-style: none;
+}
+.placanje .plan-placanja ul li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #fff;
+}
+.placanje p{
+    margin-bottom: 50px;
+}
+.placanje .plan-placanja .cena{
+    position: relative;
+    border-top: 3px dotted #fff;
+    border-bottom: 3px dotted #fff;
+    margin-bottom: 30px;
+}
+.placanje .plan-placanja .cena .prvi-broj{
+    font-size: 60px;
+    font-style: italic;
+}
+.placanje .plan-placanja .cena .drugi-broj{
+    position: relative;
+    top: -30px;
+}
+.placanje .plan-placanja .cena .mesec{
+    position: relative;
+    left: -25px;
+}
+
+.profit{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-image: url('images/profits.jpg');
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+.profit .profit-2 a{
+    border: 3px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-top: 30px;
+    display: inline-block;
+}
+.profit .profit-2 h2{
+    font-size: 50px;
+    text-transform: uppercase;   
+}
+.profit .profit-2 p{
+    font-size: 20px;
+}
+.profit .profit-2{
+    border-right:5px solid #fff;
+    border-left:5px solid #fff;
+    margin-right: 300px;
+    margin-left: 300px;
+}
+
+.footer{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.footer h4{
+    border-bottom: 1px dotted #7c7586;
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #343434;
+    padding-bottom: 5px;
+}
+.footer h4::before{
+    content: "";
+    display: inline-block;
+    background-color: #108bfc;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    position: relative;
+    top: -2px;
+}
+.footer li a{
+    text-decoration: none;
+    margin-top: 50px;
+    color: #7c7586;
+}
+.footer ul {
+    list-style:circle;
+    margin-top: 15px;
+}
+.footer i{
+    font-size: 43px;
+    margin-left: 4px;
+    color: #818181;
+}
+
+.after-footer{
+    background-color: #111618;
+    padding-bottom: 15px;
+    padding-top: 25px;
+    margin-bottom: 0px;
+}
+.after-footer ul li{
+    margin-left: 30px;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+}
+.after-footer p{
+    color: #fff;
+}
+.after-footer ul{
+    list-style: none;
+}
+.after-footer ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
