@@ -560,3 +560,35 @@ body{
     text-transform: uppercase;
 }
 
+@media (max-width:767px) {
+    .sekundarni-meni{
+        display: none;
+    }
+    .main-nav .col-md-7 .main-menu .free-quote-btn a{
+        padding: 2px;
+        margin-top: 10px;
+    }
+    .customers .col-md-3{
+        padding-bottom: 13px;
+    }
+    .about .col-md-6{
+        padding: 35px;
+    }
+    .kontaknt{
+        padding: 20px;
+    }
+    .kontaknt .col-md-7{
+        padding: 30px;
+    }
+    .placanje .col-md-3{
+        padding-bottom: 15px;
+    }
+    .profit .profit-2{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .work img{
+        padding: 20px;
+    }
+}
+
